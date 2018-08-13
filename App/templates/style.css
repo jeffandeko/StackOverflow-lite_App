@@ -465,6 +465,29 @@ div > div {
      color:rgb(255,0,0);
 }
 
+
+.dislikes {
+     width:100%;
+     height:50px;
+     color:rgb(255,0,0);
+}
+
+.dislikes a{
+     color:rgb(255,0,0);
+}
+
+
+.stars {
+     width:100%;
+     height:50px;
+     color:rgb(255,255,0);
+}
+
+.stars a{
+     color:rgb(255,25,255);
+}
+
+
 .datetime{
      width:100%;
      height:50px;
