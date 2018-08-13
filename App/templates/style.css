@@ -464,6 +464,16 @@ div > div {
 .dislikes a{
      color:rgb(255,0,0);
 }
+.important {
+     width:100%;
+     height:50px;
+     color:rgb(0,0,255);
+}
+.important a{
+     color:rgb(255,255,0);
+
+
+ }
 
 
 .dislikes {
@@ -532,6 +542,31 @@ div > div {
  .home3_div {
     width:20%;
  }
+
+/* material icon features */
+
+
+.material-icons {
+  font-family:'Material Icons';
+  font-weight:normal;
+  font-style:normal;
+  font-size:64px;
+  display: inline-block;
+  line-height:1.5;
+  text-transform:none;
+  letter-spacing:normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction:ltr;
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  -moz-osx-font-smoothing: grayscale;
+
+  font-feature-settings: 'liga';
+}
+
 
 
 
