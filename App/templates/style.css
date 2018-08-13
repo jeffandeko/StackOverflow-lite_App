@@ -1,5 +1,6 @@
 import url("https://fonts.googleapis.com/css?family=Anton|Righteous");
 
+
 /* === Global CSS code ===*/
 
 *{
@@ -11,10 +12,10 @@ body {
     margin: 0;
     font-family:"Courier New", Courier, monospace;
     line-height: 1;
-    min_height:100%;
+    min-height:100%;
     font-size: 20px;
     text-align: center;
-    background-color:(255,255,255)
+    background-color:(255,255,255);
     opacity:1.5;
 
 }
@@ -366,26 +367,26 @@ button.sign {
 
 /*search area*/
 nav.top_nav {
-    background:rgb(211,211,211);
-    min_height:100px;
-    line-height:100px
-    position:absolute;
+    background:rgb(255,255,255);
+    min-height:50px;
+    line-height:50px;
+    position:;
     width:100%;
 
 }
 .open {
     width:100%;
-    min_height:25px;
-    position:absolute;
+    min-height:20px;
+    position:relative;
 }
 
 form.search input[type=text] {
     padding:10px;
-    line-height:50px;
+    line-height:60px;
     font-size:15px;
     border:2px solid black;
     float:center;
-    width:60%;
+    width:100%;
     background:rgb(255,255,255);
     margin:auto;max-width:600px;
     margin:auto;max-height:50px;
@@ -398,25 +399,36 @@ div > div {
 .home1_div {
     width:20%;
     margin:0;
-    line-height:50px;
+    line-height:3;
+    position:relative;
 }
 
 .home2_div {
     width:60%;
+    margin:0;
     height:calc(100vh - 100px);
-    vertical-align:middle;
-
  }
+ .home2_div h7 {
+    font-size:45px;
+    font-weight: 800;
+    line-height:1;
+    color: rgb(3,3,3);
+    text-align:left;
+    text-shadow: 2px 2px 4px rgb(2,3,3);
+}
 
  .home_forum {
   float: left;
   margin-left: 1%;
-  position:absolute
+  position:absolute;
   border-radius: 10px;
   width: 100%;
   padding:4%;
 }
-
+.done{
+    line-height:1;
+    min-height:10px;
+}
 .homeQuiz_area {
   float:left;
   width:100%;
@@ -453,7 +465,7 @@ div > div {
      color:rgb(255,0,0);
 }
 
-.date$time{
+.datetime{
      width:100%;
      height:50px;
 }
@@ -473,7 +485,7 @@ div > div {
  .quiz_details {
   float:center;
   margin:5px;
-  position:absolute
+  position:absolute;
   border-radius:10px;
   padding:4%;
 }

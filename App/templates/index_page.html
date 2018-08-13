@@ -10,6 +10,7 @@
     <meta name="author" content="Jeff Andeko">
     <title> Home |StackOverflow-lite | Welcome to a platform where developers engage to build one another </title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
@@ -30,18 +31,12 @@
 <main id="main">
 
     <!--- search button for homepage--->
-      <nav class="top_nav">
-          <form class="search" action="get what you have searched">
-              <input type="text" placeholder="Search here.." name="search">
-          </form>
-      </nav>
-    <div class="open">
 
-    </div>
      <div class="main_container">
           <div class="home1_div">
          <div class="side-menu">
-                <div><a href="#"><strong>Ask a question</strong></a></div>
+                <a href="index_page.html" class="active"><strong>Recent Questions.</strong></a>
+                <a href="Ask_question.html"><strong>Ask a question</strong></a>
                 <a href="#"><strong>view all questions</strong></a>
                 <a href="#"><strong>Resources</strong></a>
                 <a href="#"><strong>SO-lite Team</strong></a>
@@ -49,40 +44,52 @@
                 <a href="#"><strong>work with us</strong></a>
                 <a href="#"><strong>Contact us</strong></a>
                 <a href="Sign_up.html"><strong>Create an account</strong></a>
-
-            </div>
+          </div>
           </div>
 
-
           <div class="home2_div">
-              <h2>Recent Questions</h2>
+
               <div class="home_forum">
+                  <div class="home_forum1">
+                      <nav class="top_nav">
+                          <form class="search" action="get what you have searched">
+                              <input type="text" placeholder="Search here....." name="search">
+                          </form>
+                      </nav>
+                      <div class="done">
+                          <h5>.</h5>
+
+                      </div>
+                      <h7>Recent Questions</h7>
+                  </div>
                   <div class="homeQuiz_area">
-                       <div class="the_user">Name of user </div>
+                      <div class="the_user"> <strong>Name:</strong> John peterson cxoza </div>
                       <hr>
-                      <span class="likes"><a href="#">Up-votes 1003</a></span>
-                      <span class="dislikes"><a href="#">Down-votes</a> </span>
+                      <span class="likes"><a href="#"><i class="material-icons">thumb_up</i></a> 10003</span>
+                      <span class="dislikes"><a href="#"><i class="material-icons">thumb_down</i></a> 233</span>
                       <span class="date%time">Sunday, 12-8-18, 23:00 hrs</span>
-                      <h5>The first questions </h5>
+                      <h5>The first questions: what is your objective in this forum, however its is a forum for the<br> best intellectual ideads on we
+                      web development</h5>
                       <hr>
                       <div class="the_question">
-                          <h5><a href="#"> click to see more details....</a></h5>
+                          <h5><a href="question_details.html"> click to see more details....</a></h5>
                       </div>
 
                   </div>
                   <div class="done">
+                      <h5>.</h5>
 
                   </div>
                   <div class="homeQuiz_area">
                        <div class="the_user">Name of user </div>
                       <hr>
-                      <span class="likes"><a href="#">Up-votes 1003</a></span>
-                      <span class="dislikes"><a href="#">Down-votes</a> </span>
+                      <span class="likes"><a href="#"><i class="material-icons">thumb_up</i></a> 1903</span>
+                      <span class="dislikes"><a href="#"><i class="material-icons">thumb_down</i></a> 23</span>
                       <span class="date%time">Sunday, 12-8-18, 23:00 hrs</span>
                       <h5> This is the second questions</h5>
                       <hr>
                       <div class="the_question">
-                          <h5> <a href="#"> click to see more details.....</a> </h5>
+                           <h5><a href="question_details.html"> click to see more details....</a></h5>
                       </div>
                   </div>
                   <div class="done">
@@ -92,13 +99,13 @@
                   <div class="homeQuiz_area">
                        <div class="the_user">Name of user  (of question 3)</div>
                       <hr>
-                      <span class="likes"><a href="#">Up-votes 1003</a></span>
-                      <span class="dislikes"><a href="#">Down-votes</a> </span>
+                      <span class="likes"><a href="#"><i class="material-icons">thumb_up</i></a> 173</span>
+                      <span class="dislikes"><a href="#"><i class="material-icons">thumb_down</i></a> 2993</span>
                       <span class="date%time">Sunday, 12-8-18, 23:00 hrs</span>
 
                       <hr>
                       <div class="the_question">
-                          <h5> <a href="#"> click for more details........</a></h5>
+                           <h5><a href="question_details.html"> click to see more details....</a></h5>
                       </div>
 
                   </div>
@@ -108,21 +115,17 @@
                   <div class="homeQuiz_area">
                        <div class="the_user">Name of user( question 4) </div>
                       <hr>
-                      <span class="likes"><a href="#">Up-votes 1003</a></span>
-                      <span class="dislikes"><a href="#">Down-votes</a> </span>
-                      <span class="date%time">Sunday, 12-8-18, 23:00 hrs</span>
+                       <span class="likes"><a href="#"><i class="material-icons">thumb_up</i></a> 13</span>
+                      <span class="dislikes"><a href="#"><i class="material-icons">thumb_down</i></a> 2765453</span>
+                      <span class="datetime">Sunday, 12-8-18, 23:00 hrs</span>
                       <h5>The ffth question.</h5>
                       <hr>
                       <div class="the_question">
-                          <h5><a href="#">click for more details.... </a></h5>
+                           <h5><a href="question_details.html"> click to see more details....</a></h5>
                       </div>
-
                   </div>
-                  <div class="done">
-
-                  </div>
+                  <div class="done"></div>
               </div>
-
           </div>
          <div class="home3_div">
              <h1></h1>
@@ -131,10 +134,6 @@
       </div>
 </main>
 <!-- html code for page footer-->
-<footer id="footer">
-    <div>
-        <p>StackOverflow-lite: Created by Jeff Andeko <a href="https://github.com/jeffandeko">@jeffandeko</a></p>
-    </div>
-</footer>
+
 </body>
 </html>
