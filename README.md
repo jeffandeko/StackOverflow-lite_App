@@ -1,4 +1,4 @@
-# StackOverflow-lite_App
+# StackOverflow-lite_App https://travis-ci.org/jeffandeko/StackOverflow-lite_App.svg?branch=master
 StackOverflow-lite is a platform where people can ask questions and provide answers.
 
 # Features
