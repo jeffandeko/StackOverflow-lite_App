@@ -122,7 +122,9 @@ header ul li a:hover {
 .sign_up {
     padding:6px 14px;
     position:relative;
+    background:rgb(0,130,0);
     top:-3px;
+    color:rgb(0,0,0);
     border-radius:25px;
     padding: 5px 5px;
 }
@@ -235,7 +237,7 @@ div > div {
     border-radius:25px;
 }
 
-.signing_button a:hover {
+.signing_button:hover {
     display: inline-block;
     background: rgb(0,255,0);
     color: #fff;
@@ -315,7 +317,7 @@ input[type="submit"] {
     height:35px;
     color:rgb(0,3,0);
     border-radius:10px;
-    background:rgb(0,255,0);
+    background:rgb(0,128,0);
     border:none;
     font-family:"Courier New", Courier, monospace;
     font-size:25px;
