@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/jeffandeko/StackOverflow-lite_App.svg?branch=master)](https://travis-ci.org/jeffandeko/StackOverflow-lite_App)
-
-![Coveralls github](https://img.shields.io/coveralls/github/jekyll/jekyll.svg)
+[![Build Status](https://travis-ci.org/jeffandeko/StackOverflow-lite_App.svg?branch=master)](https://travis-ci.org/jeffandeko/StackOverflow-lite_App) ![Coveralls github](https://img.shields.io/coveralls/github/jekyll/jekyll.svg)
 
 
 
