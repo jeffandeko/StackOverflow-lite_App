@@ -1,4 +1,6 @@
-# StackOverflow-lite_App https://travis-ci.org/jeffandeko/StackOverflow-lite_App.svg?branch=master
+[![Build Status](https://travis-ci.org/jeffandeko/StackOverflow-lite_App.svg?branch=master)](https://travis-ci.org/jeffandeko/StackOverflow-lite_App)
+
+# StackOverflow-lite_App
 StackOverflow-lite is a platform where people can ask questions and provide answers.
 
 # Features
@@ -12,7 +14,7 @@ Users can view the answers to questions.
 Users can accept an answer out of all the answers to his/her question as the preferred answer.
 
 # The Project is Built With
-a. HTML b. CSS c. python
+a. HTML b. CSS 
 
 # Project Author
 Jeff Andeko @jeffandeko
