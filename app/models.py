@@ -7,16 +7,16 @@ class Questions(db.Model):
     __tablename__ = 'questions'
 
     id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(0))
+    users_name = db.Column(db.String(0))
     date_created = db.Column(db.DateTime, default=db.func.current_timestamp())
     date_modified = db.Column(
         db.DateTime, default=db.func.current_timestamp(),
         onupdate=db.func.current_timestamp())
 
-    def __init__(self, name):
+    def __init__(self, users_name):
         """ The questions are initialized to start with name"""
 
-        self.name = name
+        self.users_name = users_name
 
     def save(self):
         db.session.add(self)
@@ -31,7 +31,7 @@ class Questions(db.Model):
         db.session.commit()
 
     def __repr__(self):
-        return "<Questions: {}>".format(self.name)
+        return "<Questions: {}>".format(self.users_name)
 
 
 class Answers(db.model):
@@ -39,15 +39,15 @@ class Answers(db.model):
     __tablename__ = 'answers'
 
     id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(0))
+    users_name = db.Column(db.String(0))
     date_created = db.Column(db.DateTime, default=db.func.current_timestamp())
     date_modified = db.Column(
         db.DateTime, default=db.func.current_timestamp(),
         onupdate=db.func.current_timestamp())
 
-    def __init__(self, name):
-        """Answers are initialized to start with a name"""
-        self.name = name
+    def __init__(self, users_name):
+        """Initializes answers to begin with users_name"""
+        self.users_name = users_name
 
     def save(self):
         db.session.add(self)
@@ -62,4 +62,4 @@ class Answers(db.model):
         db.session.commit()
 
     def __repr__(self):
-        return "<Answers: {}>".format(self.name)
+        return "<Answers: {}>".format(self.Users_name)
