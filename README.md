@@ -1,5 +1,5 @@
 
-![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg) [![Build Status](https://travis-ci.org/jeffandeko/StackOverflow-lite_App.svg?branch=master)](https://travis-ci.org/jeffandeko/StackOverflow-lite_App) ![Coveralls github](https://img.shields.io/coveralls/github/jekyll/jekyll.svg) ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
+![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg) ![Coveralls github](https://img.shields.io/coveralls/github/jekyll/jekyll.svg) ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 
 
 
