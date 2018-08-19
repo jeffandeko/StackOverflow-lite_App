@@ -5,24 +5,41 @@
 
 
 
-# StackOverflow-lite_App
-StackOverflow-lite is a platform where people can ask questions and provide answers.
-
-# Features
-The users can perform the following functions:
-
+# stackoverflow-lite-api
+# what does the api do?
 Users can create an account and log in.
 Users can post questions.
 Users can delete the questions they post.
 Users can post answers.
 Users can view the answers to questions.
-Users can accept an answer out of all the answers to his/her question as the preferred answer.
+Users can accept an answer out of all the answers to his/her question as the preferred answer. 
 
-# The Project is Built With
-a. HTML b. CSS 
+# Extra features
+Users can upvote or downvote an answer.
+Users can comment on an answer.
+Users can fetch all questions he/she has ever asked on the platform
+Users can search for questions on the platform
+Users can view questions with the most answers.
 
-# Project Author
-Jeff Andeko @jeffandeko
+# Technology Stack:
+PostgreSql with SQLAlchemy 
+Flask (A Python microframework)
+HTML and CSS
 
-Acknowledgments
-Andela Kenya
+# Tools Used:
+
+Pivotal Tracker (For project management tool)
+Pytest (for testing)
+VirtualEnv 
+Travis CI (for continous Intergration)
+
+# Author
+
+Jeff Andeko *@Jeffandeko*
+# Licensing
+
+Stackoverlow-lite-api is MIT Licensed
+
+# Acknowledgements
+
+Andela Kenya fellowship program for giving me an oppurtunity of developing endpoint a website.
