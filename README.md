@@ -8,10 +8,15 @@
 # stackoverflow-lite-api
 # what does the api do?
 Users can create an account and log in.
+
 Users can post questions.
+
 Users can delete the questions they post.
+
 Users can post answers.
+
 Users can view the answers to questions.
+
 Users can accept an answer out of all the answers to his/her question as the preferred answer. 
 
 # Extra features
@@ -23,19 +28,25 @@ Users can view questions with the most answers.
 
 # Technology Stack:
 PostgreSql with SQLAlchemy 
+
 Flask (A Python microframework)
+
 HTML and CSS
 
 # Tools Used:
 
 Pivotal Tracker (For project management tool)
+
 Pytest (for testing)
+
 VirtualEnv 
+
 Travis CI (for continous Intergration)
 
 # Author
 
 Jeff Andeko *@Jeffandeko*
+
 # Licensing
 
 Stackoverlow-lite-api is MIT Licensed
